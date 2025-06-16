@@ -1,619 +1,146 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zaid Shaikh - Frontend Developer</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+# Hi there, I'm Zaid Shaikh! 👋
 
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            overflow-x: hidden;
-            color: white;
-        }
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=435&lines=Full-Stack+Developer;React+%26+Django+Specialist;API+Architecture+Expert;Clean+Code+Enthusiast" alt="Typing SVG" />
+</div>
 
-        .animated-bg {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
-            background-size: 400% 400%;
-            animation: gradientShift 15s ease infinite;
-        }
+## 🚀 About Me
 
-        @keyframes gradientShift {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
-        }
+I'm a passionate **Full-Stack Developer** from Pune, Maharashtra, specializing in building scalable web applications with **React.js** and **Django REST Framework**. I love crafting clean, efficient code and creating seamless user experiences from frontend to backend.
 
-        .floating-shapes {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-        }
+- 🔭 Currently working at **Low Code Sys (LCS)** as a Software Developer
+- 🌱 Always learning and exploring new technologies
+- 💡 Passionate about **clean architecture**, **performance optimization**, and **user experience**
+- 🎯 Focus on building **scalable RESTful APIs** and **responsive web applications**
+- 📍 Based in Pune, Maharashtra, India
 
-        .shape {
-            position: absolute;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.1);
-            animation: float 20s infinite linear;
-        }
+## 🛠️ Tech Stack
 
-        .shape:nth-child(1) {
-            width: 80px;
-            height: 80px;
-            top: 20%;
-            left: 10%;
-            animation-delay: 0s;
-        }
+### Frontend
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Material-UI](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white)
+![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
 
-        .shape:nth-child(2) {
-            width: 120px;
-            height: 120px;
-            top: 60%;
-            left: 80%;
-            animation-delay: 5s;
-        }
+### Backend
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![Django REST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray)
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
 
-        .shape:nth-child(3) {
-            width: 60px;
-            height: 60px;
-            top: 80%;
-            left: 20%;
-            animation-delay: 10s;
-        }
+### Databases
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
 
-        @keyframes float {
-            0% { transform: translateY(0px) rotate(0deg); }
-            50% { transform: translateY(-20px) rotate(180deg); }
-            100% { transform: translateY(0px) rotate(360deg); }
-        }
+### Tools & Services
+![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=Twilio&logoColor=white)
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
-            position: relative;
-            z-index: 1;
-        }
+## 💼 Professional Highlights
 
-        .hero-section {
-            text-align: center;
-            padding: 4rem 0;
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(20px);
-            border-radius: 30px;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            margin-bottom: 3rem;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-            animation: slideUp 1s ease-out;
-        }
+### 🏢 Software Developer at Low Code Sys (LCS)
+**Jan 2023 - Present | Pune, MH**
 
-        @keyframes slideUp {
-            from {
-                opacity: 0;
-                transform: translateY(50px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
+```python
+class CurrentRole:
+    def __init__(self):
+        self.responsibilities = [
+            "🔧 Feature Development & API Design",
+            "📱 Real-time Communication (Twilio Integration)",
+            "💳 Payment Gateway Integration (Razorpay, PhonePe)",
+            "🔐 JWT Authentication & Role-based Access Control",
+            "🗃️ Database Optimization & Migration (MySQL → PostgreSQL)",
+            "⚡ Performance Tuning & State Management"
+        ]
+    
+    def get_impact(self):
+        return "Building scalable full-stack solutions with seamless UX/UI"
+```
 
-        .profile-avatar {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4);
-            background-size: 300% 300%;
-            animation: gradientRotate 3s ease infinite;
-            margin: 0 auto 2rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 4rem;
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-        }
+## 🎯 Key Expertise
 
-        @keyframes gradientRotate {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
-        }
+### 🎨 Frontend Excellence
+- **Responsive Design**: Crafting pixel-perfect, mobile-first interfaces
+- **State Management**: Advanced React patterns with Redux Toolkit
+- **Component Architecture**: Reusable, maintainable component libraries
+- **Performance**: Optimized rendering and bundle sizes
 
-        .hero-title {
-            font-size: 3.5rem;
-            font-weight: 800;
-            margin-bottom: 1rem;
-            background: linear-gradient(45deg, #ffffff, #f0f0f0);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            animation: titleGlow 2s ease-in-out infinite alternate;
-        }
+### ⚙️ Backend Mastery
+- **API Design**: RESTful principles with Django REST Framework
+- **Authentication**: JWT, OAuth2, and role-based permissions
+- **Database**: Advanced ORM usage, query optimization, and migrations
+- **Integration**: Third-party services (Twilio, Razorpay, FCM)
 
-        @keyframes titleGlow {
-            from { text-shadow: 0 0 20px rgba(255, 255, 255, 0.5); }
-            to { text-shadow: 0 0 30px rgba(255, 255, 255, 0.8); }
-        }
+### 🔧 Development Practices
+- **Testing**: Comprehensive testing with React Testing Library
+- **Version Control**: Advanced Git workflows and GitHub Actions
+- **Documentation**: Clear, maintainable code documentation
+- **Collaboration**: Cross-functional team coordination
 
-        .hero-subtitle {
-            font-size: 1.5rem;
-            opacity: 0.9;
-            margin-bottom: 2rem;
-            animation: fadeIn 1.5s ease-out 0.5s both;
-        }
+## 📊 GitHub Stats
 
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=zaid&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" />
+</div>
 
-        .stats-container {
-            display: inline-flex;
-            align-items: center;
-            background: rgba(255, 255, 255, 0.15);
-            padding: 1rem 2rem;
-            border-radius: 50px;
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            animation: pulse 2s ease-in-out infinite;
-        }
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zaid&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
+</div>
 
-        @keyframes pulse {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.05); }
-        }
+## 🌟 Featured Projects
 
-        .stats-icon {
-            width: 20px;
-            height: 20px;
-            margin-right: 0.5rem;
-            fill: currentColor;
-        }
+```javascript
+const projects = {
+  "E-Commerce Platform": {
+    tech: ["React", "Django REST", "PostgreSQL", "Razorpay"],
+    features: ["Payment Integration", "Real-time Updates", "Admin Dashboard"]
+  },
+  "Communication Hub": {
+    tech: ["React", "Django", "Twilio", "FCM"],
+    features: ["Voice Calls", "Push Notifications", "Chat System"]
+  },
+  "Analytics Dashboard": {
+    tech: ["React", "Django REST", "MySQL", "Redux"],
+    features: ["Data Visualization", "Real-time Metrics", "Export Tools"]
+  }
+};
+```
 
-        .section {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(20px);
-            border-radius: 25px;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            padding: 2.5rem;
-            margin-bottom: 2rem;
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
-            animation: slideUp 1s ease-out;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
+## 🎓 Education
 
-        .section:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
-        }
+**🎓 PG-DAC (Advanced Computing)**  
+Centre for Development of Advanced Computing (C-DAC) | Pune, MH | 2022
 
-        .section-title {
-            font-size: 2.5rem;
-            font-weight: 700;
-            margin-bottom: 2rem;
-            text-align: center;
-            background: linear-gradient(45deg, #ffffff, #f0f0f0);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
+**🎓 B.E. (Computer Engineering)**  
+Jawaharlal Nehru Engineering College | Aurangabad, MH | 2016-2021
 
-        .tech-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-            gap: 1.5rem;
-            margin-top: 2rem;
-        }
+## 📫 Let's Connect!
 
-        .tech-item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 1.5rem;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 20px;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            transition: all 0.3s ease;
-            backdrop-filter: blur(10px);
-            animation: techItemFloat 3s ease-in-out infinite;
-        }
+<div align="center">
+  <a href="mailto:zackyshaikh99@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://linkedin.com/in/zaid">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://github.com/zaid">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="tel:+918623905220">
+    <img src="https://img.shields.io/badge/Phone-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Phone" />
+  </a>
+</div>
 
-        .tech-item:nth-child(even) {
-            animation-delay: 1.5s;
-        }
+---
 
-        @keyframes techItemFloat {
-            0%, 100% { transform: translateY(0px); }
-            50% { transform: translateY(-10px); }
-        }
+<div align="center">
+  <i>⚡ "Clean code is not written by following a set of rules. You don't become a software craftsman by learning a list of heuristics. Professionalism and craftsmanship come from values that drive disciplines." - Robert C. Martin</i>
+</div>
 
-        .tech-item:hover {
-            transform: translateY(-15px) scale(1.1);
-            background: rgba(255, 255, 255, 0.2);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
-        }
-
-        .tech-icon {
-            width: 50px;
-            height: 50px;
-            margin-bottom: 1rem;
-            border-radius: 12px;
-            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.5rem;
-            animation: iconSpin 4s linear infinite;
-        }
-
-        @keyframes iconSpin {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
-        }
-
-        .tech-item:hover .tech-icon {
-            animation-play-state: paused;
-        }
-
-        .tech-name {
-            font-weight: 600;
-            text-align: center;
-            font-size: 0.9rem;
-        }
-
-        .stats-section {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            margin-top: 2rem;
-        }
-
-        .stat-card {
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 20px;
-            padding: 2rem;
-            text-align: center;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            backdrop-filter: blur(10px);
-            transition: all 0.3s ease;
-            animation: cardFloat 4s ease-in-out infinite;
-        }
-
-        .stat-card:nth-child(2) {
-            animation-delay: 1.3s;
-        }
-
-        .stat-card:nth-child(3) {
-            animation-delay: 2.6s;
-        }
-
-        @keyframes cardFloat {
-            0%, 100% { transform: translateY(0px); }
-            50% { transform: translateY(-8px); }
-        }
-
-        .stat-card:hover {
-            transform: translateY(-15px) scale(1.05);
-            background: rgba(255, 255, 255, 0.15);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
-        }
-
-        .stat-image {
-            width: 100%;
-            height: 200px;
-            background: linear-gradient(45deg, #667eea, #764ba2);
-            border-radius: 15px;
-            margin-bottom: 1rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 3rem;
-            animation: statGlow 3s ease-in-out infinite alternate;
-        }
-
-        @keyframes statGlow {
-            from { box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4); }
-            to { box-shadow: 0 10px 40px rgba(118, 75, 162, 0.6); }
-        }
-
-        .connect-section {
-            text-align: center;
-            padding: 3rem 0;
-        }
-
-        .connect-text {
-            font-size: 1.2rem;
-            margin-bottom: 2rem;
-            opacity: 0.9;
-        }
-
-        .social-links {
-            display: flex;
-            justify-content: center;
-            gap: 1.5rem;
-            flex-wrap: wrap;
-        }
-
-        .social-link {
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1);
-            background-size: 200% 200%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-decoration: none;
-            color: white;
-            font-size: 1.5rem;
-            transition: all 0.3s ease;
-            animation: socialFloat 3s ease-in-out infinite;
-            border: 2px solid rgba(255, 255, 255, 0.3);
-        }
-
-        .social-link:nth-child(even) {
-            animation-delay: 1s;
-        }
-
-        @keyframes socialFloat {
-            0%, 100% { transform: translateY(0px); }
-            50% { transform: translateY(-10px); }
-        }
-
-        .social-link:hover {
-            transform: scale(1.2) translateY(-5px);
-            background-position: 100% 100%;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-        }
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .hero-title {
-                font-size: 2.5rem;
-            }
-            
-            .hero-subtitle {
-                font-size: 1.2rem;
-            }
-            
-            .section {
-                padding: 1.5rem;
-            }
-            
-            .tech-grid {
-                grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-                gap: 1rem;
-            }
-            
-            .stats-section {
-                grid-template-columns: 1fr;
-            }
-            
-            .container {
-                padding: 1rem;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="animated-bg"></div>
-    <div class="floating-shapes">
-        <div class="shape"></div>
-        <div class="shape"></div>
-        <div class="shape"></div>
-    </div>
-
-    <div class="container">
-        <!-- Hero Section -->
-        <div class="hero-section">
-            <div class="profile-avatar">👋</div>
-            <h1 class="hero-title">Hi, I'm Zaid Shaikh</h1>
-            <p class="hero-subtitle">A passionate frontend developer from India</p>
-            <div class="stats-container">
-                <svg class="stats-icon" viewBox="0 0 24 24">
-                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-                </svg>
-                <span>Profile Views: Loading...</span>
-            </div>
-        </div>
-
-        <!-- Technologies Section -->
-        <div class="section">
-            <h2 class="section-title">🛠️ Languages and Tools</h2>
-            <div class="tech-grid">
-                <div class="tech-item">
-                    <div class="tech-icon">🎨</div>
-                    <div class="tech-name">CSS3</div>
-                </div>
-                <div class="tech-item">
-                    <div class="tech-icon">🔥</div>
-                    <div class="tech-name">Firebase</div>
-                </div>
-                <div class="tech-item">
-                    <div class="tech-icon">📝</div>
-                    <div class="tech-name">Git</div>
-                </div>
-                <div class="tech-item">
-                    <div class="tech-icon">🌐</div>
-                    <div class="tech-name">HTML5</div>
-                </div>
-                <div class="tech-item">
-                    <div class="tech-icon">☕</div>
-                    <div class="tech-name">Java</div>
-                </div>
-                <div class="tech-item">
-                    <div class="tech-icon">⚡</div>
-                    <div class="tech-name">JavaScript</div>
-                </div>
-                <div class="tech-item">
-                    <div class="tech-icon">🐧</div>
-                    <div class="tech-name">Linux</div>
-                </div>
-                <div class="tech-item">
-                    <div class="tech-icon">🗄️</div>
-                    <div class="tech-name">MySQL</div>
-                </div>
-                <div class="tech-item">
-                    <div class="tech-icon">📮</div>
-                    <div class="tech-name">Postman</div>
-                </div>
-                <div class="tech-item">
-                    <div class="tech-icon">⚛️</div>
-                    <div class="tech-name">React</div>
-                </div>
-                <div class="tech-item">
-                    <div class="tech-icon">🌱</div>
-                    <div class="tech-name">Spring</div>
-                </div>
-                <div class="tech-item">
-                    <div class="tech-icon">🎯</div>
-                    <div class="tech-name">Tailwind</div>
-                </div>
-                <div class="tech-item">
-                    <div class="tech-icon">📘</div>
-                    <div class="tech-name">TypeScript</div>
-                </div>
-            </div>
-        </div>
-
-        <!-- GitHub Stats Section -->
-        <div class="section">
-            <h2 class="section-title">📊 GitHub Statistics</h2>
-            <div class="stats-section">
-                <div class="stat-card">
-                    <div class="stat-image">📈</div>
-                    <h3>Most Used Languages</h3>
-                    <p>Dynamic breakdown of my coding languages and their usage patterns across repositories.</p>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-image">⭐</div>
-                    <h3>GitHub Stats</h3>
-                    <p>Comprehensive overview of contributions, stars, and repository activity metrics.</p>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-image">🔥</div>
-                    <h3>Contribution Streak</h3>
-                    <p>Visualization of consistent coding habits and daily contribution patterns.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Connect Section -->
-        <div class="section connect-section">
-            <h2 class="section-title">🤝 Let's Connect</h2>
-            <p class="connect-text">Feel free to reach out for collaborations, discussions, or just to say hello!</p>
-            <div class="social-links">
-                <a href="#" class="social-link" title="LinkedIn">💼</a>
-                <a href="#" class="social-link" title="GitHub">🐱</a>
-                <a href="#" class="social-link" title="Twitter">🐦</a>
-                <a href="#" class="social-link" title="Email">📧</a>
-                <a href="#" class="social-link" title="Portfolio">🌐</a>
-            </div>
-        </div>
-    </div>
-
-    <script>
-        // Simulate profile view counter animation
-        let viewCount = 0;
-        const targetViews = 1337;
-        const counter = document.querySelector('.stats-container span');
-        
-        const countAnimation = setInterval(() => {
-            viewCount += Math.floor(Math.random() * 50) + 10;
-            if (viewCount >= targetViews) {
-                viewCount = targetViews;
-                clearInterval(countAnimation);
-            }
-            counter.textContent = `Profile Views: ${viewCount.toLocaleString()}`;
-        }, 100);
-
-        // Add dynamic interaction effects
-        document.querySelectorAll('.tech-item').forEach(item => {
-            item.addEventListener('mouseenter', () => {
-                item.style.background = 'rgba(255, 255, 255, 0.25)';
-            });
-            
-            item.addEventListener('mouseleave', () => {
-                item.style.background = 'rgba(255, 255, 255, 0.1)';
-            });
-        });
-
-        // Add scroll-triggered animations
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity = '1';
-                    entry.target.style.transform = 'translateY(0)';
-                }
-            });
-        }, observerOptions);
-
-        document.querySelectorAll('.section').forEach(section => {
-            section.style.opacity = '0';
-            section.style.transform = 'translateY(30px)';
-            section.style.transition = 'all 0.6s ease';
-            observer.observe(section);
-        });
-
-        // Add particle effect on hover
-        document.addEventListener('mousemove', (e) => {
-            if (Math.random() > 0.95) {
-                const particle = document.createElement('div');
-                particle.style.position = 'fixed';
-                particle.style.left = e.clientX + 'px';
-                particle.style.top = e.clientY + 'px';
-                particle.style.width = '4px';
-                particle.style.height = '4px';
-                particle.style.background = 'rgba(255, 255, 255, 0.6)';
-                particle.style.borderRadius = '50%';
-                particle.style.pointerEvents = 'none';
-                particle.style.zIndex = '1000';
-                particle.style.animation = 'particleFade 1s ease-out forwards';
-                
-                document.body.appendChild(particle);
-                
-                setTimeout(() => {
-                    particle.remove();
-                }, 1000);
-            }
-        });
-
-        // Add particle fade animation
-        const style = document.createElement('style');
-        style.textContent = `
-            @keyframes particleFade {
-                0% {
-                    opacity: 1;
-                    transform: scale(1);
-                }
-                100% {
-                    opacity: 0;
-                    transform: scale(0) translateY(-20px);
-                }
-            }
-        `;
-        document.head.appendChild(style);
-    </script>
-</body>
-</html>
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=zaid&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile Views" />
+</div>
