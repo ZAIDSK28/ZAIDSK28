@@ -84,11 +84,11 @@ class CurrentRole:
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=zaid&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ZAIDSK28SK28&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zaid&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZAIDSK28SK28&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
 </div>
 
 ## 🌟 Featured Projects
@@ -142,5 +142,5 @@ Jawaharlal Nehru Engineering College | Aurangabad, MH | 2016-2021
 </div>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=zaid&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=ZAIDSK28SK28&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile Views" />
 </div>
